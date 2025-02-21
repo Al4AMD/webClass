@@ -1,0 +1,3 @@
+deployment:
+  tasks:
+    - cp -r * ~/public_html/
