@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    direction: rtl;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-row, .class-row {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #000;
+}
+
+.header-row {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.cell {
+    float: right;
+    padding: 8px;
+    border-left: 1px solid #000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cell:last-child {
+    border-left: none;
+}
+
+.day {
+    width: 7%;
+}
+
+.instructor {
+    width: 12%;
+}
+
+.units {
+    width: 5%;
+}
+
+.course-name {
+    width: 15%;
+}
+
+.course-code {
+    width: 12%;
+    direction: ltr;
+}
+
+.time-slot {
+    font-size: 0.85em;
+}
+
+.clear {
+    clear: both;
+}
